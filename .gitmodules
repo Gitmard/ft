@@ -1,9 +1,6 @@
 [submodule "common_core/ms-0/libft"]
 	path = common_core/ms-0/libft
 	url = git@github.com:Gitmard/libft.git
-[submodule "common_core/ms-1/get_next_line"]
-	path = common_core/ms-1.get_next_line
-	url = git@github.com:Gitmard/get_next_line.git
 [submodule "common_core/ms-1/ft_printf"]
 	path = common_core/ms-1/ft_printf
 	url = git@github.com:Gitmard/ft_printf.git
