@@ -1,0 +1,41 @@
+name: Update Submodules
+
+on:
+  workflow_dispatch:
+  
+  schedule:
+    - cron: '0 2 * * *'
+  
+  repository_dispatch:
+    types: [submodule-updated]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Update submodules
+        run: |
+          git submodule update --remote --merge
+      
+      - name: Commit and push if changed
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "chore: update submodules [bot]"
+            git push
+            echo "Submodules updated and pushed"
+          else
+            echo "No changes to commit"
+          fi
