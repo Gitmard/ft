@@ -1,0 +1,7 @@
+**/.*.sw*
+**/*.out
+.vscode
+*.o
+*.d
+*.a
+tests/the_holy_bible.txt
