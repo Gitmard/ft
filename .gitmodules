@@ -9,7 +9,7 @@
 	url = git@github.com:Gitmard/get_next_line.git
 [submodule "common_core/ms-2/push_swap"]
 	path = common_core/ms-2/push_swap
-	url = https://github.com/Gitmard/ft_push_swap
+	url = git@github.com:Gitmard/ft_push_swap.git
 [submodule "common_core/ms-2/python_piscine"]
 	path = common_core/ms-2/python_piscine
 	url = git@github.com:Gitmard/python_piscine_ft.git
