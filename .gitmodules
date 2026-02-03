@@ -1,0 +1,3 @@
+[submodule "common_core/ms-0/libft"]
+	path = common_core/ms-0/libft
+	url = git@github.com:Gitmard/libft.git
