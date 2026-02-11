@@ -58,7 +58,7 @@ Introduction to Python programming, covering basic syntax, data types, control s
 To clone this repository with all submodules:
 
 ```bash
-git clone --recursive https://github.com/Gitmard/ft.git
+git clone --recursive git@github.com:Gitmard/ft.git
 ```
 
 If you've already cloned the repository without the `--recursive` flag:
