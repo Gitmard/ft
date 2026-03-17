@@ -13,6 +13,3 @@
 [submodule "common_core/ms-2/python_piscine"]
 	path = common_core/ms-2/python_piscine
 	url = git@github.com:Gitmard/python_piscine_ft.git
-[submodule "a-maze-ing"]
-	path = a-maze-ing
-	url = git@github.com:Gitmard/a-maze-ing.git
