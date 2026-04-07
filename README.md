@@ -89,12 +89,12 @@ git submodule update --remote --merge
 
 Each project is maintained as an independent repository and can be accessed separately:
 
-- [libft](https://github.com/Gitmard/libft)
-- [ft_printf](https://github.com/Gitmard/ft_printf)
-- [get_next_line](https://github.com/Gitmard/get_next_line)
-- [push_swap](https://github.com/Gitmard/ft_push_swap)
-- [python_piscine](https://github.com/Gitmard/python_piscine_00)
-- [a-maze-ing](https://github.com/Gitmard/a-maze-ing)
+- [libft](https://github.com/ardsimm/libft)
+- [ft_printf](https://github.com/ardsimm/ft_printf)
+- [get_next_line](https://github.com/ardsimm/get_next_line)
+- [push_swap](https://github.com/ardsimm/ft_push_swap)
+- [python_piscine](https://github.com/ardsimm/python_piscine_00)
+- [a-maze-ing](https://github.com/ardsimm/a-maze-ing)
 
 ## License
 
