@@ -62,7 +62,7 @@ A maze generation project with a vialsualizer using the 42 school's graphical li
 To clone this repository with all submodules:
 
 ```bash
-git clone --recursive git@github.com:Gitmard/ft.git
+git clone --recursive git@github.com:ardsimm/ft.git
 ```
 
 If you've already cloned the repository without the `--recursive` flag:
