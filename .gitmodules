@@ -16,3 +16,6 @@
 [submodule "common_core/ms-2/a-maze-ing"]
 	path = common_core/ms-2/a-maze-ing
 	url = git@github.com:Gitmard/a-maze-ing.git
+[submodule "common_core/ms-3/codexion"]
+	path = common_core/ms-3/codexion
+	url = git@github.com:ardsimm/codexion.git
